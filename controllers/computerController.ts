@@ -27,7 +27,7 @@ export const addComputer = (req: Request, res: Response) => {
   computers.push(newComputer);
   writeData(computers);
 
-  res.status(201).json(newComputer);
+  res.json(newComputer);
 };
 
 export const removeComputer = (req: Request, res: Response) => {
@@ -38,11 +38,11 @@ export const removeComputer = (req: Request, res: Response) => {
     (computer) => !(computer.id === id && computer.classroomId === classroomId)
   );
   if (updatedComputers.length === computers.length) {
-    return res.status(404).json({ message: 'Computer not found' });
+    return res.json({ message: 'Computer not found' });
   }
 
   writeData(updatedComputers);
-  res.status(204).send();
+  res.send();
 };
 
 export const searchComputer = (req: Request, res: Response) => {
@@ -53,10 +53,10 @@ export const searchComputer = (req: Request, res: Response) => {
     (comp) => comp.id === id || comp.studentName === studentName
   );
   if (!computer) {
-    return res.status(404).json({ message: 'Computer not found' });
+    return res.json({ message: 'Computer not found' });
   }
 
-  res.status(200).json(computer);
+  res.json(computer);
 };
 
 export const getComputersByClassroom = (req: Request, res: Response) => {
@@ -66,5 +66,5 @@ export const getComputersByClassroom = (req: Request, res: Response) => {
   const filteredComputers = computers.filter(
     (comp) => comp.classroomId === classroomId
   );
-  res.status(200).json(filteredComputers);
+  res.json(filteredComputers);
 };
