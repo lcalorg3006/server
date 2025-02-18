@@ -1,0 +1,110 @@
+[
+  {
+    "id": "C001",
+    "classroomId": "AULA_1",
+    "studentName": "Juan Pérez",
+    "grade": "1º de ESO"
+  },
+  {
+    "id": "C002",
+    "classroomId": "AULA_1",
+    "studentName": "María López",
+    "grade": "2º de ESO"
+  },
+  {
+    "id": "C003",
+    "classroomId": "AULA_2",
+    "studentName": "Carlos García",
+    "grade": "1º de Bachillerato"
+  },
+  {
+    "id": "C004",
+    "classroomId": "AULA_2",
+    "studentName": "Ana Martínez",
+    "grade": "2º de Bachillerato"
+  },
+  {
+    "id": "C005",
+    "classroomId": "AULA_1",
+    "studentName": "Luis Fernández",
+    "grade": "3º de ESO"
+  },
+  {
+    "id": "15",
+    "classroomId": "AULA_1",
+    "studentName": "Lorena",
+    "grade": "Dam"
+  },
+  {
+    "id": "34567",
+    "classroomId": "AULA_1",
+    "studentName": "Prueva",
+    "grade": "Da"
+  },
+  {
+    "id": "356789",
+    "classroomId": "AULA_1",
+    "studentName": "Prueba interfaz",
+    "grade": "Dam"
+  },
+  {
+    "id": "146",
+    "classroomId": "Aula3",
+    "studentName": "Paquita",
+    "grade": "Dam"
+  },
+  {
+    "id": "146272",
+    "classroomId": "Aula108",
+    "studentName": "Lorene",
+    "grade": "Dam"
+  },
+  {
+    "id": "57283",
+    "classroomId": "AULA_9",
+    "studentName": "Pape",
+    "grade": "Jdks"
+  },
+  {
+    "id": "3456",
+    "classroomId": "AULA_1",
+    "studentName": "Lore",
+    "grade": "Dan"
+  },
+  {
+    "id": "156",
+    "classroomId": "AULA_209",
+    "studentName": "Lorena",
+    "grade": "Dam"
+  },
+  {
+    "id": "1352",
+    "classroomId": "AULA_209",
+    "studentName": "Lorwna",
+    "grade": "Dam"
+  },
+  {
+    "id": "1234",
+    "classroomId": "AULA_209",
+    "studentName": "Lore",
+    "grade": "Dam"
+  },
+  {
+    "id": "1672",
+    "classroomId": "AULA_90",
+    "studentName": "Lorena",
+    "grade": "Dam"
+  },
+  {
+    "id": "34678",
+    "classroomId": "AULA_789",
+    "studentName": "Prieba",
+    "grade": "Dam"
+  },
+  {
+    "id": "15363",
+    "classroomId": "AULA_209",
+    "studentName": "Lorena",
+    "grade": "Dam"
+  }
+]
