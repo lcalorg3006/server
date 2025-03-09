@@ -18,4 +18,4 @@ Este código configura un servidor Express que:
 Permite solicitudes CORS.
 Puede manejar datos JSON en las solicitudes.
 Tiene rutas específicas para manejar operaciones relacionadas con "computers".
-Escucha en el puerto 5000 y está accesible desde cualquier dirección IP en la red local. Descripción General del Código
+Escucha en el puerto 5000 y está accesible desde cualquier dirección IP en la red local.
